@@ -1,0 +1,3 @@
+﻿此工程根据surf算法实现了surf图像特征点匹配和计算两幅图像的viewpoint在世界坐标中的R和T的变化（使用的opencv中的方法）两部分的内容。在使用时，若使用的图片是本地图片，要将图片放在cpp同级文件夹下的build/imgs文件夹中。CMakeLists.txt文件也在build文件夹中。使用摄像头即时获得图像的时候，要在capture中改变摄像头的焦距等固定参数。main函数在demo.cpp中。
+
+
